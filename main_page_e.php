@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IHSAN_CRM</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="http://localhost:8080/IHSAN_CRM/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="http://localhost:8080/IHSAN_CRM/dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+          page. However, you can choose any other skin. Make sure you
+          apply the skin class to the body tag so the changes take effect.
+    -->
+    <link rel="stylesheet" href="http://localhost:8080/IHSAN_CRM/dist/css/skins/skin-blue.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+  <!--
+  BODY TAG OPTIONS:
+  =================
+  Apply one or more of the following classes to get the
+  desired effect
+  |---------------------------------------------------------|
+  | SKINS         | skin-blue                               |
+  |               | skin-black                              |
+  |               | skin-purple                             |
+  |               | skin-yellow                             |
+  |               | skin-red                                |
+  |               | skin-green                              |
+  |---------------------------------------------------------|
+  |LAYOUT OPTIONS | fixed                                   |
+  |               | layout-boxed                            |
+  |               | layout-top-nav                          |
+  |               | sidebar-collapse                        |
+  |               | sidebar-mini                            |
+  |---------------------------------------------------------|
+  -->
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>C</b>RM</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>IHSAN</b>CRM</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu" style="margin-right="20%">
+            <ul class="nav navbar-nav">
+              
+
+              <!-- Notifications Menu -->
+              
+              <!-- Tasks Menu -->
+              
+              <!-- User Account Menu -->
+              <li class="dropdown user user-menu">
+                <a class="dropdown-toggle" href="http://localhost:8080/IHSAN_CRM/logout.php">logout</a>
+        
+                    
+          
+               
+
+              </li>
+                
+              
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- Sidebar Menu -->
+          <ul class="sidebar-menu">
+            <li class="header">PAGES</li>
+            <!-- Optionally, you can add icons to the links -->
+            <li class="active"><a href="http://localhost:8080/IHSAN_CRM/main_page_e.php"><i class="fa fa-link"></i> <span>HOME PAGE</span></a></li>
+			<li class="treeview">
+              <a href="#"><i class="fa fa-link"></i> <span>Products</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="http://localhost:8080/IHSAN_CRM/employe/add_pro.php">Add Product</a></li>
+                <li><a href="http://localhost:8080/IHSAN_CRM/employe/product.php">Show All Products</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#"><i class="fa fa-link"></i> <span>Offers</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="http://localhost:8080/IHSAN_CRM/employe/add_offer.php">Add Offer</a></li>
+                <li><a href="http://localhost:8080/IHSAN_CRM/employe/offers.php">Show All Offers</a></li>
+              </ul>
+            </li>
+			<li class="treeview">
+              <a href="#"><i class="fa fa-link"></i> <span>Coummunication</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="http://localhost:8080/IHSAN_CRM/employe/E-mail.php">E-mail</a></li>
+                <li><a href="https://web.whatsapp.com/">Whatsapp</a></li>
+				<li><a href="http://localhost:8080/IHSAN_CRM/employe/show_suggest.php">suggest</a></li>
+				<li><a href="http://localhost:8080/IHSAN_CRM/employe/all_compliment.php">compliamente</a></li>
+              </ul>
+            </li>
+			<li><a href="http://localhost:8080/IHSAN_CRM/employe/report.php"><i class="fa fa-link"></i> <span>Reports</span></a></li>
+			<li><a href="http://localhost:8080/IHSAN_CRM/employe/accpet_orders.php"><i class="fa fa-link"></i> <span>order</span></a></li>
+          </ul><!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        
+
+        <!-- Main content -->
+        <section class="content">
+
+          <!-- Your Page Content Here -->
+          <div>
+		  	  <?php
+  include "connect.php";
+  if(isset($_POST['submit'])=="processing"){
+	$_id = implode(",",$_POST["sat"]);
+	$_update="update  or_t SET product_state=1 where or_id in (".$_id.")"; 
+	if(!mysql_query($_update))
+	echo mysql_error();
+	  
+	  
+  }
+  echo "<form method='post'/>";
+  $query = mysql_query("select * from or_t where product_state=0")
+   or die(mysql_error());
+   
+   
+  ?>
+		 
+  <h3>NEW ORDERS</h3>
+  <table id="example2" class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th>ORDER ID</th>
+                        <th>COUSTMER NAME</th>
+                        <th>PRODUCT NAME</th>
+						<th>quantety</th>
+						<th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <?php while($row=mysql_fetch_assoc($query)){ ?>
+                      <tr>
+                        <td><?php echo $row['or_id'];?></td>
+						
+                        <td><?php $dptid= $row['customer_id']; 
+			 	include "connect.php";
+  				$query6 = mysql_query("select * from customer where customer_id=$dptid")or die(mysql_error());
+   				$row6 = mysql_fetch_assoc($query6);
+			 	echo $row6['customer_name'];?></td>
+				
+                        <td><?php $dptid1= $row['product_id']; 
+			 	include "connect.php";
+  				$query7 = mysql_query("select * from product where product_id=$dptid1")or die(mysql_error());
+   				$row7 = mysql_fetch_assoc($query7);
+			 	echo $row7['product_name'];?></td>
+						<td><?php echo $row['or_q'];?></td>
+						<td style="text-align:center  "><input type="checkbox" name="sat[]" value="<?php echo  $row['or_id'] ;?>"/></td>
+                      </tr>
+                      <?php }?>
+                      
+                      
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th>..</th>
+                        <th>..</th>
+                        <th>..</th>
+                        <th>..</th>
+                        <th>..</th>
+                        
+                      </tr>
+                    </tfoot>
+                  </table>
+				  <tr>
+<input type="submit" value="accpet"
+ name="submit" class="btn btn-primary" style="color:#464646" />
+		  </div>
+		   <label>________________________________________________________________________________________________________________________________________________________________</label>
+		  <div>
+		  <h3>REPORTS</h3>
+		   <table id="example2" class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th><a href="http://localhost:8080/IHSAN_CRM/employe/report_pro_acpted.php">accepted orders</a></th>
+                        <th><a href="http://localhost:8080/IHSAN_CRM/employe/ch_report.php">sales dashboards reports</a></th>
+                        <th><a href="http://localhost:8080/IHSAN_CRM/employe/report_pro_ordered.php">new orders</a></th>
+						<th><a href="http://localhost:8080/IHSAN_CRM/employe/report_most_ord_pro.php">most ordered products</a></th>
+						<th><a href="http://localhost:8080/IHSAN_CRM/employe/report_most_ord_cos.php">most ordered coustmers</a></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                      
+                      
+                    </tbody>
+                    <tfoot>
+                     
+                    </tfoot>
+                  </table>
+		  </div>
+		  <label>________________________________________________________________________________________________________________________________________________________________</label>
+		  <div>
+		   <?php
+include"connect.php";
+$query=mysql_query("select * from em")
+or die (mysql_error());
+?>
+<h3>E-mail</h3>
+  <table id="example2" class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th>FROM</th>
+                        <th>TO</th>
+                        <th>SUBJECT</th>
+                        <th>MASSAGE</th>
+            
+            
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <?php while($row=mysql_fetch_assoc($query)){ ?>
+                      <tr>
+                        <td><?php echo $row['em_from'];?></td>
+                        <td><?php echo $row['em_to'];?></td>
+                        <td><?php echo $row['em_subject'];?></td>
+                        <td><?php echo $row['em_massage'];?></td>
+                        
+                       
+                      </tr>
+                      <?php }?>
+                      
+                      
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th>..</th>
+                        <th>..</th>
+                        <th>..</th>
+                        <th>..</th>
+                        <th>..</th>
+                        
+                       
+                      </tr>
+                    </tfoot>
+                  </table>
+		  </div>
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+       <footer class="main-footer">
+        <!-- To the right -->
+        <div class="pull-right hidden-xs">
+          <a href="https//www.facebook.com/a641995">contect us</a>
+        </div>
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2017 <a href="#">Alaa and Ahmed company</a>.</strong> All rights reserved.
+      </footer>
+
+      <!-- Control Sidebar -->
+      
+      <!-- Add the sidebar's background. This div must be placed
+           immediately after the control sidebar -->
+      <div class="control-sidebar-bg"></div>
+    </div><!-- ./wrapper -->
+
+    <!-- REQUIRED JS SCRIPTS -->
+
+    <!-- jQuery 2.1.4 -->
+    <script src="http://localhost:8080/IHSAN_CRM/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="http://localhost:8080/IHSAN_CRM/bootstrap/js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="http://localhost:8080/IHSAN_CRM/dist/js/app.min.js"></script>
+
+    <!-- Optionally, you can add Slimscroll and FastClick plugins.
+         Both of these plugins are recommended to enhance the
+         user experience. Slimscroll is required when using the
+         fixed layout. -->
+  </body>
+</html>
